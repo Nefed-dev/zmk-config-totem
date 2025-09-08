@@ -109,6 +109,13 @@
             bindings = <&none &kp>;
             label = "RUEN_SEMICOLON";
         };
+
+        eng_sym_sharp: sym_sharp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&switch_en &kp LS(NUMBER_3) &kp>;
+            label = "SYM_SHARP";
+        };
     };
 
     keymap {
@@ -271,24 +278,6 @@
         };
 
         layer_6 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_8 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_9 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
