@@ -103,20 +103,6 @@
             bindings = <&kp LS(LC(NUMBER_2))>;
             label = "SWITCH_RU";
         };
-
-        ruen_semicolon: ruen_semicolon {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "RUEN_SEMICOLON";
-        };
-
-        eng_sym_sharp: sym_sharp {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&switch_en &kp LS(NUMBER_3) &kp>;
-            label = "SYM_SHARP";
-        };
     };
 
     keymap {
