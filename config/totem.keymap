@@ -56,15 +56,27 @@
             key-positions = <31 30>;
         };
 
-        onEn_dot_semicolon {
+        onEn_dot_colon {
             bindings = <&mt LS(SEMICOLON) PERIOD>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
-        onRu_dot_semicolon {
+        onRu_dot_colon {
             bindings = <&mt NUMBER_6 SLASH>;
             key-positions = <2 3>;
+            layers = <1>;
+        };
+
+        onEn_comma_semicolon {
+            bindings = <&mt SEMICOLON COMMA>;
+            key-positions = <2 1>;
+            layers = <0>;
+        };
+
+        onRu_comma_semicolon {
+            bindings = <&mt LS(NUMBER_4) LS(SLASH)>;
+            key-positions = <1>;
             layers = <1>;
         };
     };
