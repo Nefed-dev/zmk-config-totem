@@ -91,6 +91,18 @@
             key-positions = <15 16>;
             layers = <1>;
         };
+
+        round_brace_l {
+            bindings = <&kp LS(N9)>;
+            key-positions = <3 4>;
+            layers = <0 1>;
+        };
+
+        round_brace_r {
+            bindings = <&kp LS(N0)>;
+            key-positions = <5 6>;
+            layers = <0 1>;
+        };
     };
 
     macros {
