@@ -55,6 +55,18 @@
             bindings = <&to_ru>;
             key-positions = <31 30>;
         };
+
+        onEn_dot_semicolon {
+            bindings = <&mt LS(SEMICOLON) PERIOD>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        onRu_dot_semicolon {
+            bindings = <&mt NUMBER_6 SLASH>;
+            key-positions = <2 3>;
+            layers = <1>;
+        };
     };
 
     macros {
