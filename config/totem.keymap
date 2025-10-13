@@ -303,10 +303,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &lt 5 SPACE  &mo 5     &trans  &trans  &trans
+        &trans  &kp COMMA                 &kp MINUS     &kp DOT      &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
+        &trans  &kp LS(LEFT_PARENTHESIS)  &kp MINUS     &kp LS(N0)   &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
+&trans  &trans  &kp FSLH                  &kp LS(BSLH)  &kp BSLH     &trans    &trans  &trans    &trans  &trans    &trans  &trans
+                                          &trans        &lt 5 SPACE  &mo 5     &trans  &trans    &trans
             >;
         };
 
