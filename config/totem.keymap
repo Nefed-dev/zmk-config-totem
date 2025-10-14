@@ -333,10 +333,10 @@
         ru_SYM {
             label = "ru_SYM";
             bindings = <
-        &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &lt 5 SPACE  &mo 5     &trans  &trans  &trans
+        &trans  &ruen_on_en LESS_THAN  &trans  &ruen_on_en GREATER_THAN  &trans    &trans  &ruen_on_en LEFT_BRACE    &kp LS(N7)       &ruen_on_en RIGHT_BRACE    &trans
+        &trans  &kp LEFT_PARENTHESIS   &trans  &kp RIGHT_PARENTHESIS     &trans    &trans  &ruen_on_en LEFT_BRACKET  &kp EXCLAMATION  &ruen_on_en RIGHT_BRACKET  &trans
+&trans  &trans  &trans                 &trans  &trans                    &trans    &trans  &trans                    &trans           &trans                     &trans  &trans
+                                       &trans  &lt 5 SPACE               &mo 5     &trans  &trans                    &trans
             >;
         };
 
