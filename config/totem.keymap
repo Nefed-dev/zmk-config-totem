@@ -132,6 +132,21 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
         };
+
+        cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <21 22>;
+        };
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <22 23>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <23 24>;
+        };
     };
 
     macros {
@@ -308,10 +323,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &kp COMMA                 &kp MINUS     &kp DOT      &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
-        &trans  &kp LS(LEFT_PARENTHESIS)  &kp MINUS     &kp LS(N0)   &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
-&trans  &trans  &kp FSLH                  &kp LS(BSLH)  &kp BSLH     &trans    &trans  &trans    &trans  &trans    &trans  &trans
-                                          &trans        &lt 5 SPACE  &mo 5     &trans  &trans    &trans
+        &trans  &kp COMMA                 &kp MINUS      &kp DOT      &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
+        &trans  &kp LS(LEFT_PARENTHESIS)  &kp LS(MINUS)  &kp LS(N0)   &trans    &trans  &kp LBKT  &trans  &kp RBKT  &trans
+&trans  &trans  &kp FSLH                  &kp LS(BSLH)   &kp BSLH     &trans    &trans  &trans    &trans  &trans    &trans  &trans
+                                          &trans         &lt 5 SPACE  &mo 5     &trans  &trans    &trans
             >;
         };
 
