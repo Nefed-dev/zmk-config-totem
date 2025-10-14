@@ -325,7 +325,7 @@
             bindings = <
         &trans  &kp LESS_THAN         &kp MINUS      &kp GREATER_THAN       &trans    &trans  &kp LEFT_BRACE  &kp EXCLAMATION  &kp RIGHT_BRACE  &trans
         &trans  &kp LEFT_PARENTHESIS  &kp LS(MINUS)  &kp RIGHT_PARENTHESIS  &trans    &trans  &kp LBKT        &kp QUESTION     &kp RBKT         &trans
-&trans  &trans  &kp FSLH              &kp LS(BSLH)   &kp BSLH               &trans    &trans  &trans          &trans           &trans           &trans  &trans
+&trans  &trans  &kp FSLH              &kp PIPE       &kp BSLH               &trans    &trans  &trans          &trans           &trans           &trans  &trans
                                       &trans         &lt 5 SPACE            &mo 5     &trans  &trans          &trans
             >;
         };
@@ -333,10 +333,10 @@
         ru_SYM {
             label = "ru_SYM";
             bindings = <
-        &trans  &ruen_on_en LESS_THAN  &trans  &ruen_on_en GREATER_THAN  &trans    &trans  &ruen_on_en LEFT_BRACE    &kp LS(N7)       &ruen_on_en RIGHT_BRACE    &trans
-        &trans  &kp LEFT_PARENTHESIS   &trans  &kp RIGHT_PARENTHESIS     &trans    &trans  &ruen_on_en LEFT_BRACKET  &kp EXCLAMATION  &ruen_on_en RIGHT_BRACKET  &trans
-&trans  &trans  &trans                 &trans  &trans                    &trans    &trans  &trans                    &trans           &trans                     &trans  &trans
-                                       &trans  &lt 5 SPACE               &mo 5     &trans  &trans                    &trans
+        &trans  &ruen_on_en LESS_THAN  &trans            &ruen_on_en GREATER_THAN      &trans    &trans  &ruen_on_en LEFT_BRACE    &kp LS(N7)       &ruen_on_en RIGHT_BRACE    &trans
+        &trans  &kp LEFT_PARENTHESIS   &trans            &kp RIGHT_PARENTHESIS         &trans    &trans  &ruen_on_en LEFT_BRACKET  &kp EXCLAMATION  &ruen_on_en RIGHT_BRACKET  &trans
+&trans  &trans  &ruen_on_en SLASH      &ruen_on_en PIPE  &ruen_on_en NON_US_BACKSLASH  &trans    &trans  &trans                    &trans           &trans                     &trans  &trans
+                                       &trans            &lt 5 SPACE                   &mo 5     &trans  &trans                    &trans
             >;
         };
 
