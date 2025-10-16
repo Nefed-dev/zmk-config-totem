@@ -49,11 +49,13 @@
         Eng_layer {
             bindings = <&en_lay>;
             key-positions = <20 21>;
+            layers = <0 1>;
         };
 
         ru_layer {
             bindings = <&ru_lay>;
             key-positions = <31 30>;
+            layers = <0 1>;
         };
 
         onEn_dot_colon {
