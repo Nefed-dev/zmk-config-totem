@@ -52,7 +52,7 @@
         };
 
         ru_layer {
-            bindings = <&to_ru>;
+            bindings = <&ru_lay>;
             key-positions = <31 30>;
         };
 
@@ -168,7 +168,7 @@
         en_lay: ru_lay {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(LS(NUMBER_1)) &to 0>;
+            bindings = <&macro_tap>, <&kp LS(LA(NUMBER_1)) &to 0>;
 
             label = "RU_LAY";
         };
@@ -176,7 +176,7 @@
         ru_lay: en_lay {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LS(LC(NUMBER_2)) &to 1>;
+            bindings = <&macro_tap>, <&kp LC(LA(NUMBER_2)) &to 1>;
 
             label = "EN_LAY";
         };
