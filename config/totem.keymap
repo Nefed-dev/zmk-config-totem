@@ -65,7 +65,7 @@
         };
 
         onRu_dot_colon {
-            bindings = <&mt NUMBER_6 SLASH>;
+            bindings = <&mt NUMBER_6 LS(SLASH)>;
             key-positions = <2 3>;
             layers = <1>;
         };
@@ -361,6 +361,20 @@
 &studio_unlock  &out OUT_USB  &trans             &trans      &trans           &kp PRINTSCREEN    &kp PRINTSCREEN  &kp F1  &kp F2   &kp F3   &kp F4   &trans
                                                  &trans      &trans           &trans             &trans           &trans  &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        enSym {
+            if-layers = <0>;
+            then-layer = <3>;
+        };
+
+        ruSym {
+            if-layers = <1>;
+            then-layer = <4>;
         };
     };
 };
