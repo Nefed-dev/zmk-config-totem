@@ -149,6 +149,18 @@
             bindings = <&kp K_PASTE>;
             key-positions = <23 24>;
         };
+
+        rus_kha {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <8 9>;
+            layers = <1>;
+        };
+
+        rus_hard_sign {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 7>;
+            layers = <1>;
+        };
     };
 
     macros {
