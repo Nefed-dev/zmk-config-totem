@@ -310,10 +310,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &kp HOME   &kp UP    &kp END    &ruen_on_en LBRC    &ruen_on_en RBRC  &kp N7              &kp N8             &kp N9                 &kp EQUAL
-        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &ruen_on_en LBKT    &ruen_on_en RBKT  &mt LCTRL NUMBER_4  &mt LEFT_SHIFT N5  &mt LEFT_ALT NUMBER_6  &mt LEFT_WIN N0
-&trans  &kp LCTRL  &kp PG_UP  &trans    &kp PG_DN  &kp LPAR            &kp RPAR          &kp NUMBER_1        &kp NUMBER_2       &kp NUMBER_3           &kp MINUS        &trans
-                              &trans    &trans     &trans              &trans            &lt 5 ENTER         &trans
+        &kp ESC    &kp HOME   &kp UP    &kp END    &trans    &trans  &kp N7              &kp N8             &kp N9                 &kp EQUAL
+        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &trans  &mt LCTRL NUMBER_4  &mt LEFT_SHIFT N5  &mt LEFT_ALT NUMBER_6  &mt LEFT_WIN N0
+&trans  &kp LCTRL  &kp PG_UP  &trans    &kp PG_DN  &trans    &trans  &kp NUMBER_1        &kp NUMBER_2       &kp NUMBER_3           &kp MINUS        &trans
+                              &trans    &trans     &trans    &trans  &lt 5 ENTER         &trans
             >;
         };
 
