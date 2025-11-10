@@ -152,13 +152,13 @@
 
         rus_kha {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <8 9>;
+            key-positions = <7 6>;
             layers = <1>;
         };
 
         rus_hard_sign {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
             layers = <1>;
         };
     };
