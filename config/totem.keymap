@@ -48,12 +48,12 @@
 
         Eng_layer {
             bindings = <&en_lay>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
         };
 
         ru_layer {
             bindings = <&ru_lay>;
-            key-positions = <31 30>;
+            key-positions = <30 29>;
         };
 
         onEn_dot_colon {
